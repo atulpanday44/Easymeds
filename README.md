@@ -1,22 +1,10 @@
 # EasyMeds-frontend
 
-PharmEasy is a consumer healthcare “super app” that provides consumers with on-demand, home delivered access to a wide range of prescription, OTC pharmaceutical, other consumer healthcare products, comprehensive diagnostic test services, and teleconsultations thereby serving their healthcare needs.
+EasyMeds is a consumer healthcare “super app” that provides consumers with on-demand, home delivered access to a wide range of prescription, OTC pharmaceutical, other consumer healthcare products, comprehensive diagnostic test services, and teleconsultations thereby serving their healthcare needs.
 For more information go to https://pharmeasy.in/ 
 
 
 ![ revvgroup-frontend](https://i.ibb.co/wrTXJhN/pharma.png)
-
-
-# Welcome :wave:
-
-
-## Deployment Link:-
-[revv-clone-project.netlify.app](https://pharmeasy-clone-2022.netlify.app/)
-
-## Contributers :- 
-- #### [Tejasvini-Patil](https://www.linkedin.com/in/tejasvini-patil/)
-- #### [Deepanshu-Mehra](https://www.linkedin.com/in/deepanshu-mehra-14a472233/)
-<!-- - #### [Mangidkar-Ketan](https://www.linkedin.com/in/mangidkar-ketan/?trk=public_profile-settings_project_contributor-image&originalSubdomain=in) -->
 
 
 
@@ -62,7 +50,4 @@ For more information go to https://pharmeasy.in/
 ![Paytm-mall](https://i.ibb.co/wrTXJhN/pharma.png)
  ![items](https://i.ibb.co/2kVmZDj/skin.png)
   ![items](https://i.ibb.co/G9gRqFB/skin2.png)
-
-## For more details, here is our blog
-[Blog](https://medium.com/@tvpatil330/my-first-experience-while-working-with-the-team-on-a-clone-project-82814b32ee3a)
 
