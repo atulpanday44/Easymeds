@@ -1,0 +1,139 @@
+.end_page{
+    margin-top: 70px;
+}
+
+.ending{
+    width: 62%;
+    height: 300px;
+    margin: 30px auto;
+    display: grid;
+    grid-template-columns: repeat(3,250px);
+    grid-template-rows: 280px;
+    justify-content: space-around;
+}
+.ending > div{
+    display: grid;
+    grid-template-columns: repeat(1,200);
+    grid-template-rows: 80px 130px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.small_para{
+    line-height: 22px;
+    margin-left: 6px;
+}
+span{
+    color: grey;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size: 17px;
+}
+.head{
+    font-size: 19px;
+    font-family: Georgia, serif	;
+    padding-left: 4px;
+}
+.photo{
+    width: 25%;
+    height: 60%;
+    display: block;
+    margin-top: 21px;
+    margin-left: 4px;
+}
+
+.download{
+    margin-left: 120px;
+    width: 94%;
+    height: 550px;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    justify-content: space-evenly;
+}
+.phone{
+    width: 22%;
+    margin: 30px auto;
+}
+.app_store{
+    width: 65%;
+    height: 180px;
+    margin-top: 40px;
+   
+    display: grid;
+    grid-template-rows: 60px 110px;
+}
+.app_store> div{
+    width: 50%;
+}
+.download_app{
+    display: grid;
+    grid-template-columns: repeat(2,180px);
+    grid-template-rows: 60px;
+    justify-content: space-between;
+}
+.download_app > div{
+    margin-top: 6px;
+    border-radius: 4px;
+    background-color: teal;
+    text-align: center;
+    padding-top: 15px;
+}
+a{
+    color: white;
+    font-size: 17px;
+    
+}
+hr{
+    color: silver;
+}
+
+.follow_us{
+    width: 90%;
+    margin:auto;
+    margin-left: 90px;
+    height: 700px;
+    background-color: rgb(244,247,251);
+    display: grid;
+    grid-template-columns: 250px 250px 260px 320px;
+    grid-template-rows: 530px 150px;
+    justify-content: space-around;
+}
+
+.follow_us > div{
+
+    line-height: 16px;                           
+}
+#pay_partner{
+    grid-area: 2/1/3/5;
+    display: grid;
+    grid-template-rows: 30px 70px;
+}
+#pay_partner > div{
+    font-size: 21px;
+    color: teal;
+    padding-left: 18px;
+    padding-top: 7px;
+    
+}
+.follow_us > div >p{
+    font-size: 17px;
+    font-family: sans-serif;
+    padding-left: 30px;
+    color: grey;
+}
+.head3{
+    padding-left: 30px;
+    color: teal;
+}
+#logo{
+    display: flex;
+    flex-direction: row;
+}
+#logo > div{
+    width: 8%;
+}
+.photo2{
+    width: 60%;
+    height: 60%;
+    display: block;
+    margin-top: 11px;
+    margin-left: 5px;
+}

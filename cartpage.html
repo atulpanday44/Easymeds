@@ -1,0 +1,103 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/629044acfa.js" crossorigin="anonymous"></script>
+    <title>PharmEasy : Cart</title>
+    <link rel="stylesheet" href="cartpage.css">
+    <link rel="stylesheet" href="HomePage.css">
+    <link rel="icon" type="image" href="orderimage/tittle.png">
+</head>
+<body>
+    <div id="conatiner">
+        <div id="navbar" class="fn">
+          <div>
+            <a href="Homepage.html">
+              <img class="mainLogo" src="https://assets.pharmeasy.in/web-assets/dist/fca22bc9.png" alt="">
+
+            </a>
+         </div>
+          <div class="bar">
+             <div class="search">
+               <div>
+                   <h4 style="font-size: 15px;" class="pinCode">Select Pincode</h4>
+                   <select  id="pin">
+                       <option value=""></option>
+                   </select>
+                   <input type="text" placeholder="Search medicines /Healthcare Products @ 18% Off">
+                   <div class="searchLogo">
+                       <img style="padding: 8px;" src="https://www.freeiconspng.com/thumbs/search-icon-png/search-icon-png-21.png" alt="" width="60%">
+                   </div>
+               </div>
+             </div>
+
+           <div id="downBar">
+            <div class="left">
+                <a href="product.html">Our Medicines</a>
+                <a href="product.html">Healthcare Products</a>
+                <a href="Lab Test.html">Lab Tests</a>
+             </div>
+               <div class="right">
+                <a href="">Offers</a>
+                <a class="idName" href="signup.html">Login/SignUp</a>
+                <a href="cartpage.html">Cart</a>
+
+               </div>
+           </div>
+          </div>
+        </div>
+
+      </div>  
+      
+<!-- navbar ended -->
+
+    <div id= "h3">
+    <h3>items in cart</h3></div>
+    <button id="gotocart" onclick="window.location.href ='Venisua.html'">Back To Product</button>
+    <div id="section">
+    <div id="cartside">
+    <div id="main">  
+        <div >
+            <img  class="imgdiv" src="" alt="">
+        </div>
+        <div class="textdiv">
+            <h5 id="n"></h5>
+            <p id="p"></p>
+            <p id="q"></p>
+            <p id="t"></p>
+            <!-- <select id="qty" onchange="onchange()">
+                <option>Quantity</option>
+                <option>1</option>
+                <option>2</option>
+            </select> -->
+        </div>
+    <button id="delete"></button>
+    </div>
+    <div id="note">
+        <ul id="notes"><h3>Additional Notes</h3></ul>
+        <li>A licensed pharmacy would be delivering your order basis availability of product & fastest delivery.</li>
+        <li>Prices are indicative and may change after billing</li>
+        <li>PharmEasy is a technology platform to connect sellers and buyers and is not involved in sales of any product.</li>
+        <li>Offer for sale on the products and services are provided/sold by the sellers only.</li>
+    </div>
+    </div>
+    <div id="Qcart">
+        <button id="promobutton"><i class="fas fa-tags"></i>Apply Coupon</button>
+        <input type="text" id="pcode" placeholder="type promo code">
+        <button id="adas" onclick="window.location.href ='deliveryAdd.html' "  target="_blank">Select Delivery Address</button>
+        <button id="changeadd" onclick="window.location.href ='deliveryAdd.html' ">Change Address</button>
+        <div id="addressadded">
+            <p>Send to -</p>
+        </div>
+        
+        <button id="adas" onclick="window.location.href ='payment.html'">Procced To Pay</button>
+    </div>
+
+</div> 
+
+</body>
+</html>
+<script src="cartpage.js"></script>

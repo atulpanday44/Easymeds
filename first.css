@@ -1,0 +1,150 @@
+.first{
+    height: 250px;
+    margin:  auto;
+    width: 85%;
+    display: grid;
+    grid-template-columns: repeat(3, 30%);
+    justify-content: space-evenly;
+
+}
+
+.order{
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    height: 180px;
+    margin-top: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+.plus{
+    height: 180px;
+    width: 83%;
+    margin: auto;
+    ;
+}
+.plus > img{
+    width: 100%;
+    cursor: pointer;
+}
+.container2{
+    width: 80%;
+    height: 1050px;
+    margin: auto;
+
+}
+.showImg{
+    height: 135px;
+    display: grid;
+    grid-template-columns:repeat(6,180px);
+    justify-content: space-between;
+}
+.show{
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+.show > img{
+    object-fit: fil;
+}
+
+.text{
+    width: 20%;
+    height: 30px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+.text>h3{
+    color: rgb(56, 53, 53);   
+    font-size: 18px;
+    margin-left: 15px;
+    
+
+}
+.text>img{
+    width: 40px;
+    height:40px;
+}
+.boxx{
+    height: 100px;
+    margin-top: 20px;
+    border-radius: 5px;
+    display: flex;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+
+}
+.box{
+    display: grid;
+    grid-template-columns: repeat(4,270px);
+    justify-content: space-between;
+    color: black;
+    
+
+}
+.s{
+    width: 30%;
+    height: 100%;
+}
+.s > img{
+    margin: 8px 5px 5px 2px;
+}
+.b{
+    width:65% ;
+    height: 80%;
+    text-align:start;
+    margin-top: 10px;
+    margin-left: 8px;
+    font-weight: bold;
+}
+.grytxt{
+    color: grey;
+}
+.brand{
+    color: rgb(56, 53, 53);   
+    font-size: 20px;
+    margin-top: 40px;
+    font-weight: 600;
+}
+.items{
+    display: grid;
+    width: 100%;
+    height: auto;
+    grid-template-columns: repeat(8,130px);
+    justify-content: space-between;
+}
+.item:hover{
+    width: 135px;
+    
+}
+.item{
+    border-radius: 5px;
+    cursor: pointer;
+    height: 187px;
+    margin-top: 25px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+
+}
+.row{
+    margin-top: 70px;
+    height: auto;
+}
+
+@media only screen and (min-width:0px) and (max-width:320px)
+{
+
+    .first{
+    
+        grid-template-columns: repeat(3, 30%);
+       
+
+    
+    }
+    
+}
+
+@media only screen and (min-width:321px) and (max-width:720px)
+{
+
+}

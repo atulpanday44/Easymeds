@@ -1,0 +1,223 @@
+.slide{
+    width: 95%;
+    height: 250px;
+    background-image: url("https://pharmeasy.in/_next/image?url=https%3A%2F%2Fcms-contents.pharmeasy.in%2Fbanner%2Ff190cbe684b-Otrivin-CB-Jan.jpg&w=750&q=75");
+    margin: 140px auto;
+    animation: slide 30s  infinite;
+    border: 2px solid grey;
+    border-radius: 5px;
+}
+@keyframes slide{
+    0%{
+        background: url("https://pharmeasy.in/_next/image?url=https%3A%2F%2Fcms-contents.pharmeasy.in%2Fbanner%2Fbaa60d4f2e4-CategoryBanner-min-min.png&w=750&q=75");
+    }
+    25%{
+        background: url("https://pharmeasy.in/_next/image?url=https%3A%2F%2Fcms-contents.pharmeasy.in%2Fbanner%2Fccdca1569be-Moha-CB-Jan.jpg&w=750&q=75");
+    }
+    45%{
+        background: url("https://pharmeasy.in/_next/image?url=https%3A%2F%2Fcms-contents.pharmeasy.in%2Fbanner%2Fc77ed5623a7-Siddhayu-CB-Jan22-min.jpg&w=750&q=75");
+    }
+    65%{
+        background: url("https://pharmeasy.in/_next/image?url=https%3A%2F%2Fcms-contents.pharmeasy.in%2Fbanner%2Ff190cbe684b-Otrivin-CB-Jan.jpg&w=750&q=75");
+    }
+    85%{
+        background: url("https://pharmeasy.in/_next/image?url=https%3A%2F%2Fcms-contents.pharmeasy.in%2Fbanner%2Ff97f8619caf-Boldcare-Men-InsideCB-Nov21.png&w=750&q=75");
+    }
+    100%{
+        background: url("https://cms-contents.pharmeasy.in/banner/ab104e66f38-Digene_CB.jpg?dim=700x0&dpr=1&q=100");
+    }
+}
+
+
+#bigbox{
+    width: 100%;
+    margin: auto;
+    margin-top: -40px;
+    display: grid;
+    grid-template-columns: repeat(3,300px);
+    grid-template-rows: repeat(5,110px);
+    grid-column-gap: 8px;
+    grid-row-gap: 18px;
+    justify-content: space-evenly;
+}
+
+
+.box{
+    display: grid;
+    grid-template-columns: 100px 100px 80px;
+    justify-content: space-between;
+    border-radius: 6px;
+}
+.box:hover{
+    background-color: #ddd;
+}
+.theory{
+    margin: 50px auto;
+    width: 80%;
+}
+article{
+    line-height: 25px;
+    font-size: 15px;
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+ul{
+    line-height: 29px;
+}
+li{
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h3{
+    color: teal;
+    font-size: 20px;
+}
+
+.ending{
+    width: 62%;
+    height: 300px;
+    margin: 30px auto;
+    display: grid;
+    grid-template-columns: repeat(3,250px);
+    grid-template-rows: 280px;
+    justify-content: space-around;
+}
+.ending > div{
+    display: grid;
+    grid-template-columns: repeat(1,200);
+    grid-template-rows: 80px 130px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.small_para{
+    line-height: 22px;
+    margin-left: 6px;
+}
+span{
+    color: grey;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size: 17px;
+}
+.head{
+    font-size: 19px;
+    font-family: Georgia, serif	;
+    padding-left: 4px;
+}
+.photo{
+    width: 25%;
+    height: 60%;
+    display: block;
+    margin-top: 21px;
+    margin-left: 4px;
+}
+
+.download{
+    width: 94%;
+    height: 550px;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    justify-content: space-evenly;
+}
+.phone{
+    width: 22%;
+    margin: 30px auto;
+}
+.app_store{
+    width: 65%;
+    height: 180px;
+    margin-top: 40px;
+   
+    display: grid;
+    grid-template-rows: 60px 110px;
+}
+.app_store> div{
+    width: 50%;
+}
+.download_app{
+    display: grid;
+    grid-template-columns: repeat(2,180px);
+    grid-template-rows: 60px;
+    justify-content: space-between;
+}
+.download_app > div{
+    margin-top: 6px;
+    border-radius: 4px;
+    background-color: teal;
+    text-align: center;
+    padding-top: 15px;
+}
+a{
+    color: white;
+    font-size: 17px;
+    
+}
+hr{
+    color: silver;
+}
+
+.follow_us{
+    width: 90%;
+    margin:auto;
+    margin-left: 90px;
+    height: 700px;
+    background-color: rgb(244,247,251);
+    display: grid;
+    grid-template-columns: 250px 250px 260px 320px;
+    grid-template-rows: 530px 150px;
+    justify-content: space-around;
+}
+
+.follow_us > div{
+
+    line-height: 16px;                           
+}
+#pay_partner{
+    grid-area: 2/1/3/5;
+    display: grid;
+    grid-template-rows: 30px 70px;
+}
+#pay_partner > div{
+    font-size: 21px;
+    color: teal;
+    padding-left: 18px;
+    padding-top: 7px;
+    
+}
+.follow_us > div >p{
+    font-size: 17px;
+    font-family: sans-serif;
+    padding-left: 30px;
+    color: grey;
+}
+.head3{
+    padding-left: 30px;
+}
+#logo{
+    display: flex;
+    flex-direction: row;
+}
+#logo > div{
+    width: 8%;
+}
+.photo2{
+    width: 60%;
+    height: 60%;
+    display: block;
+    margin-top: 11px;
+    margin-left: 5px;
+}
+#one{
+    flex-grow: 1;
+    padding-top: 18px;
+}
+
+
+@media only screen and (min-width:0px) and (max-width:320px){
+
+#bigbox{
+
+    grid-template-columns: repeat(1,300px);
+    grid-template-rows: repeat(13,110px);
+   
+}
+}

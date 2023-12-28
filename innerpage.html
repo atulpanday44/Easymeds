@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Products : All Products</title>
+        <link rel="stylesheet" href="inner.css">
+        <link rel="stylesheet" href="HomePage.css">
+        <link rel="icon" type="image" href="orderimage/tittle.png">
+
+        
+    </head>
+    <body>
+      <div id="conatiner" class="fn">
+        <div id="navbar">
+          <div>
+            <a href="Homepage.html">
+              <img class="mainLogo" src="https://assets.pharmeasy.in/web-assets/dist/fca22bc9.png" alt="">
+
+            </a>
+         </div>
+          <div class="bar">
+             <div class="search">
+               <div>
+                   <h3>Select Pincode</h3>
+                   <select style=" width: 20px;" id="pin">
+                       <option value=""></option>
+                   </select>
+                   <input type="text" placeholder="Search medicines /Healthcare Products @ 18% Off">
+                   <div class="searchLogo">
+                       <img style="padding: 8px;" src="https://www.freeiconspng.com/thumbs/search-icon-png/search-icon-png-21.png" alt="">
+                   </div>
+               </div>
+             </div>
+
+           <div id="downBar">
+            <div class="left">
+                <a href="product.html">Our Medicines</a>
+                <a href="product.html">Healthcare Products</a>
+                <a href="Lab Test.html">Lab Tests</a>
+             </div>
+               <div class="right">
+                <a href="">Offers</a>
+                <a class="idName" href="signup.html">Login/SignUp</a>
+                <a href="cartpage.html">Cart</a>
+
+               </div>
+           </div>
+          </div>
+        </div>
+      </div>  
+<!----------------------Nav abr end------------------------------>
+<!----------------------filter divison-->
+      <div class="container">
+
+        <div id="container">
+          <p style="color: black;font-size: 27px;padding-left: 80px;text-shadow: teal 1px 7px 9px;line-height: 10px;">FILTER</p>
+          <div><p style="padding-left: 28px; font-size: 24px;color: teal;line-height: 0px;">Sub category<br>
+            <select id="skin-cat" onchange="skincategory()">
+              <option value="">category</option>
+              <option value="Skin Creams & Hair Removal">Skin Creams & Hair Removal</option>
+              <option value="Face Wipes">Face Wipes</option>
+              <option value="Facial Masks">Facial Masks</option>
+              <option value="Bathing">Bathing</option>
+            </select>
+          </p>
+          </div>
+          <hr>
+          <div><p style="padding-left: 28px; font-size: 24px;color: teal;line-height: 0px;">Brand
+            <select id="skinbrand" onchange="skinbrands()">
+              <option value="23 Yards">23 Yards</option>
+              <option value="Abzorb">Abzorb</option>
+              <option value="Accare">Accare</option>
+              <option value="Talcum Powder">Talcum Powder</option>
+              <option value="Achigun">Achigun</option>
+              <option value="Acneguard">Acneguard</option>
+            </select>
+          </p>
+          </div>
+          <hr>
+          <div><p style="padding-left: 28px; font-size: 24px;color: teal;line-height: 0px;">Price
+            <select id="sort" onchange="pricesorting()">
+              <option>Popularity</option>
+              <option value="low">Price Low to High</option>
+              <option value="high">Price High to Low</option>
+            </select>
+            </p>
+          </div>
+        </div>
+
+<!--------------------------- skin product image--------------------->
+        <div class="products">
+          <div id="sorting_col">
+            <div><h1 id="skin">Skin Care</h1></div>
+           
+          </div>
+<!------------------produnct mapping start----------------->          
+          <div id="product_col"></div>
+        </div>
+      </div>
+      <br><br>
+      <hr>
+
+   <div class="end_page">
+        <div class="ending">
+          <div>  <!---box 1-->
+              <div class="img"><img class="photo" src="https://pharmeasy.in/_next/image?url=%2Ficons%2FgenuineMedicine.svg&w=64&q=75"></div>
+              <div class="small_para"><p class="head">1 Lakh+ Products</p><span>We maintain strict quality controls on all our partner retailers, so that you always get standard quality products.</span></div>
+          </div>
+
+<!--------------------box 2-->
+          <div>                      
+              <div class="img"><img class="photo"  src="https://pharmeasy.in/_next/image?url=%2Ficons%2FsecurePayment.svg&w=64&q=75"></div>      
+              <div class="small_para"><p class="head">Secure Payment</p><span>100% secure and trusted payment protection</span></div>
+          </div>
+
+<!--------------------------box 3-->
+          <div>     
+              <div class="img"><img class="photo" src="https://pharmeasy.in/_next/image?url=%2Ficons%2FeasyReturn.svg&w=64&q=75"></div>
+              <div class="small_para"><p class="head">Easy Return</p><span>We have a new and dynamic return window policy for medicines and healthcare items. Refer FAQs section for more details.</span></div>
+          </div>
+      </div>
+      <hr>
+      <!---------------download div start---------------->
+      <div class="download">
+          <div class="phone">
+              <img src="https://pharmeasy.in/_next/image?url=%2Ficons%2FfooterMobile.jpg&w=256&q=75">
+          </div>
+          <div class="app_store">
+              <div><h2 class="head">Download the App for Free</h2></div>
+              <div class="download_app">
+                  <div><a href="https://play.google.com/store/apps/details?id=com.phonegap.rxpal&hl=en_IN&gl=US&utm_source=web&utm_medium=footer">Google Play</a></div>
+                  <div><a href="https://apps.apple.com/in/app/pharmeasy-healthcare-app/id982432643">App store</a></div>
+              </div>
+          </div>
+      </div>
+      <!------download div end----------------->
+
+      <!-------------------follow us-- last div of the page -->
+      <div class="follow_us">
+          <div>
+              <h3 class="head3">Company</h3>
+              <p>About us</p>
+              <p>Careers</p>
+              <p>Blog</p>
+              <p>Partner with PharmEasy</p>
+              <h3 class="head3">Our Services</h3>
+              <p>Order Medicines</p>
+              <p>Healthcare Product</p>
+              <p>Lab Tests</p>
+          </div>
+
+          <div>
+              <h3 class="head3">Featured categories</h3>
+              <p>Covid Essentials</p>
+              <p>Healthcare Devices</p>
+              <p>Health Food and Drinks</p>
+              <p>Personal Care</p>
+              <p>Ayurvedic Care</p>
+              <p>Mother and Baby Care</p>
+              <p>Accessories And Wearables</p>
+              <p>Skin Care</p>
+              <p>Diabetic Care</p>
+              <p>Fitness & Supplements</p>
+              <p>Home Care</p>
+              <p>Surgicals and Dressings</p>
+              <p>Pet Cares</p>
+          </div>
+
+
+          <div>
+              <h3 class="head3">Need Help</h3>
+              <p>Browse All Medicines</p>
+              <p>Browse All Molecules</p>
+              <p>Browse All Cities and Areas</p>
+              <p>FAQs</p>
+              <h3 class="head3">Policy Info</h3>
+              <p>Editorial Policy</p>
+              <p>Privacy Policy</p>
+              <p>Vulnerability Disclosure Policy</p>
+              <p>Terms and condition</p>
+              <p>Return Policy</p>
+          </div>
+
+          <div id="social_media_icon">
+              <h2>Follow Us</h2>
+          </div>
+          <div id="pay_partner">
+              <div>Our Payment Partners</div>
+              <div id="logo">
+                  <div><img src="https://pharmeasy.in/_next/image?url=%2Ficons%2Fgpay.svg&w=64&q=75" class="photo2"></div>
+                  <div><img src="https://pharmeasy.in/_next/image?url=%2Ficons%2Fpaytm.svg&w=64&q=75" class="photo2"></div>
+                  <div><img src="https://pharmeasy.in/_next/image?url=%2Ficons%2Fphonepe.svg&w=64&q=75" class="photo2"></div>
+                  <div><img src="https://pharmeasy.in/_next/image?url=%2Ficons%2Fvisa.svg&w=64&q=75" class="photo2"></div>
+                  <div><img src="https://pharmeasy.in/_next/image?url=%2Ficons%2Frupay.svg&w=64&q=75" class="photo2"></div>
+                  <div><img src="https://pharmeasy.in/_next/image?url=%2Ficons%2Fmobikwik.svg&w=64&q=75" class="photo2"></div>
+                  <div><img src="https://pharmeasy.in/_next/image?url=%2Ficons%2Fmaestro.svg&w=64&q=75" class="photo2"></div>
+                  <div><img src="https://pharmeasy.in/_next/image?url=%2Ficons%2Fairtel-money.svg&w=64&q=75" class="photo2"></div>
+                  <div id="one"><article>
+                      © 2022 PharmEasy. All Rights Reserved</article></div>
+              </div>
+          </div>
+  </div>
+    </body>
+</html>
+
+<script src="innerpage.js"></script>

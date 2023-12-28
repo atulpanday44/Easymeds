@@ -1,0 +1,32 @@
+.slide-container{
+    /* border: 2px solid red; */
+    min-height:260px;
+    max-height: 280px;
+    width: 100%;
+    margin-top: 123px; 
+    
+}
+body{
+    margin: 0;
+}
+img{
+    width: 100%;
+}
+.aerro{
+    cursor: pointer;
+    position:absolute;
+    top: 35%;
+    color: white;
+    font-size: 35px;
+    
+    
+}
+.next{
+    right: 10px;
+}
+.prev{
+    left: 10px;
+}
+.slide{
+    display: none;
+}

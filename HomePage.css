@@ -1,0 +1,86 @@
+
+#navbar{
+    width: 100%;
+    height: 123px;
+    background-color: #10847e;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display:flex;
+ 
+}
+.fn{
+    font-family: Open Sans,sans-serif!important;
+    font-size: 13px;
+    font-weight: 300;
+    color:#10847e;
+}
+.mainLogo{
+    width: 165px;
+    height: 50px;
+    margin: 10px 0 10px 150px;
+    cursor: pointer;
+}
+.bar{
+    width: 70%;
+    height: 100px;
+    margin: 10px 0 10px 40px;
+}
+.search{
+    border-radius: 5px;
+    width: 75%;
+    height: 48px;
+    background-color: white;
+}
+.search > div{
+    /* border: 1px solid red; */
+    display:flex;
+    height: 45px;
+    align-items:center;
+    margin-left: 20px;
+    
+}
+#pin{
+    border: 0px;
+    margin: 0px;
+}
+.searchLogo{
+    width:50px;
+    height: 100%;
+    margin-left: 38px;
+    background-color: rgb(240, 230, 230);
+    border-radius: 5px;
+    
+    
+}
+.searchLogo > img{
+    width: 20px;
+    height: 20px;
+    margin: 5px 5px 5px 5px;
+    
+}
+input{
+    margin-left: 10px;
+    height: 80%;
+    width: 70%;
+    border: 0px;
+}
+#downBar{
+    display:flex;
+    margin-top: 28px;
+}
+#downBar>div>a{
+    font-size: 16px;
+    margin-left: 30px;
+    color: white;
+    font-weight: 400;
+    text-decoration: none;
+}
+.left{
+    width: 50%;
+    margin-left: -30px;
+}
+.right{
+    width: 30%;
+    margin-left: 180px;
+}

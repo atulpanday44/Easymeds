@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab Test</title>
+    <link rel="stylesheet" href="HomePage.css">
+    <style>
+    body {
+        margin: 0 100px 0 100px;
+        /* border: 1px solid rgb(190, 26, 26); */
+    }
+    #feedback {
+        width: 100%;
+        height: 300px;
+        margin-top: 30px;  
+    }
+    #customerfeed {
+        /* width: 50%; */
+        display:grid;
+        grid-template-columns: repeat(10, 280px);
+        grid-template-rows:repeat(3, 100px) ;
+        grid-gap: 20px;
+        margin-top: 140px;
+        overflow:hidden; 
+        margin-bottom: -120px;
+        
+    }
+    #customerfeed > div {
+        border: 1px solid teal;
+        border-radius: 100px;
+        padding: 10px;
+        display: flex;
+        width: 210px;  
+    }
+    .four {
+        height: 70%;
+        margin-right: 30px;
+    }
+    #fourbox {
+        font-size: 22px;
+        font-weight: 550;
+        margin-top: -10px;
+        line-height: 35px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    #safe {
+        width: 100%;
+        height: 120px;
+        margin-top: -100px;
+        
+    }
+    #plustext {
+        width: 95%;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 5px ;
+        background-color: rgb(133, 115, 225);
+        border-radius: 10px;
+        color: white;
+        display: flex;
+        padding: 5px 20px 5px 50px;
+        font-size: 25px;
+    }
+    #plusimg {
+        height:"0px";
+        
+    }
+   
+    #main {
+        display: flex;
+    }
+    #box {
+        display: flex;
+        padding: 20px;
+        border :0.5px solid rgb(216, 203, 203);
+        width: 80%; 
+        height: 80px;
+        border-radius: 10px;
+        margin-bottom: 20px;
+    }
+    #box:hover {
+        border :0.5px solid teal;       
+    }
+    #text {
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 10px;
+        width: 450px;
+        margin-top: -15px;
+        color: rgb(83, 93, 106);
+    }
+    #bttn {
+        height: 50px;
+        width: 150px;
+        background-color: teal;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        border: 0px;
+        border-radius: 5px;
+        font-weight: 600;
+    }
+    
+    #labtest > div ,h1{
+        margin-left: 200px;
+    }
+</style>
+</head>
+<body>
+    <div id="conatiner">
+        <div id="navbar" class="fn">
+          <div >
+           <a href="Homepage.html">
+            <img  class="mainLogo" src="https://assets.pharmeasy.in/web-assets/dist/fca22bc9.png" alt="">
+           </a>
+         </div>
+          <div class="bar">
+             <div class="search">
+               <div>
+                   <h3>Select Pincode</h3>
+                   <select  id="pin">
+                       <option value=""></option>
+                   </select>
+                   <input type="text" placeholder="Search medicines /Healthcare Products @ 18% Off">
+                   <div class="searchLogo">
+                       <img style="padding: 8px;" src="https://www.freeiconspng.com/thumbs/search-icon-png/search-icon-png-21.png" alt="" width="60%">
+                   </div>
+               </div>
+             </div>
+           <div id="downBar">
+            <div class="left">
+                <a href="product.html">Our Medicines</a>
+                <a href="product.html">Healthcare Products</a>
+                <a href="Lab Test.html">Lab Tests</a>
+             </div>
+               <div class="right">
+                <a href="">Offers</a>
+                <a href="login.html">Login/SignUp</a>
+                <a href="cartpage.html">Cart</a>
+               </div>
+           </div>
+          </div>
+        </div>
+    <div id="customerfeed" type>
+        <!-- <button onclick="next()" ><i class="fal fa-arrow-alt-square-right"></i></button> -->
+      <div>
+        <img class="four" src="https://assets.pharmeasy.in/web-assets/dist/6b3d644c.svg" alt="Health">  
+        <p id="fourbox">All Tests</p></div>
+      <div>
+        <img class="four" src="https://assets.pharmeasy.in/web-assets/dist/dea295a0.svg" alt="Health">  
+        <p id="fourbox">Health<br> Packages</p>
+      </div>
+      <div>
+        <img class="four" src="https://assets.pharmeasy.in/web-assets/dist/d4d62fbf.svg" alt="Health">  
+        <p id="fourbox">Upload Prescription</p>
+      </div>
+      <div>
+        <img class="four" src="https://assets.pharmeasy.in/web-assets/dist/4ed59722.svg" alt="Health">  
+        <p id="fourbox">Book on Call</p>
+      </div>
+    </div>
+    <img id="safe" src="https://cdn01.pharmeasy.in/dam/banner/banner/67a4b87fd2f-Trustmarkernew.png" alt="safe">
+    <div id="plustext">
+        <img src="https://assets.pharmeasy.in/web-assets/dist/3864b471.svg" height="50px" style="margin: 10px 20px 0 0;">
+        <p>Save flat 5% extra on medicines % engoy FREE delivery with PLUS menbership</p>
+    </div>
+        <h1>Lab Test</h1>
+    <div id="main">
+    <div id="labtest"></div>
+    <!-- <div>Order Summery</div>
+    <hr>
+    <table>
+        <thead></thead>
+    </table> -->
+</body>
+</html>
+<script src="LabData.js"></script>
